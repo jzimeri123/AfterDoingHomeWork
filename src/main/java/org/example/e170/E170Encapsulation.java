@@ -19,21 +19,21 @@ class Customer{
     }
 
     //setter methods
-    public void setCustomerName(String customerName){
-        this.customerName=customerName;
+    public void setCustomerName(String name){
+        this.customerName=name;
     }
-    public void setCustomerAge(int customerAge){
-        this.customerAge=customerAge;
+    public void setCustomerAge(int age){
+        this.customerAge=age;
     }
 }
 
 class StoreManagement{
     public static void main(String[] args) {
-        Customer obj=new Customer();
-        obj.setCustomerName("Mario");
-        obj.setCustomerAge(32);
-        System.out.println("Customer Name: "+obj.getCustomerName());;
-        System.out.println("Customer Age: "+obj.getCustomerAge());
+        Customer customer=new Customer();
+        customer.setCustomerName("Mario");
+        customer.setCustomerAge(32);
+        System.out.println("Customer Name: "+customer.getCustomerName());;
+        System.out.println("Customer Age: "+customer.getCustomerAge());
     }
 
 

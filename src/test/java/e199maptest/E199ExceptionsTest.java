@@ -33,7 +33,8 @@ public class E199ExceptionsTest {
 
         // Expected output
         String expectedOutput = "Trying to access an element..." + System.lineSeparator() +
-                "Error: Array index is out of bounds" + System.lineSeparator() +
+                "Error: Array index is out " +
+                "of bounds" + System.lineSeparator() +
                 "Program has finished";
 
         // Check if the output matches the expected output
